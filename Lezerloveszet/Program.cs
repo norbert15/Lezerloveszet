@@ -18,7 +18,7 @@ namespace Lezerloveszet
             Beolvasas("lovesek.txt");
             Console.WriteLine("Adatok beolvasva");
             Console.WriteLine($"\n5.feladat: A lövések száma: {lovesek.Count} db");
-
+             
             //7.feladat
             double legkozelebbi = 100;
             int azon = 0;
