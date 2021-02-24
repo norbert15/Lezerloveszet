@@ -41,6 +41,7 @@ namespace Lezerloveszet
             Console.WriteLine($"\n10.feladat: Játékosok száma: {lovesek.GroupBy(a => a.Nev).Count()}");
 
             //11.feladat
+            Console.WriteLine("\n11.feladat: Lövések száma:");
             foreach (var item in lovesek.GroupBy(a => a.Nev).ToList())
             {
                 Console.WriteLine($"\t{item.Key} - {lovesek.FindAll(a =>a.Nev == item.Key).Count} db");
